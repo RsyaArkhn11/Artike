@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style media="screen">
+        .container{
+        width:60%;
+        height: 200px;
+        overflow: auto;
+        margin-left: 0 auto;
+        }
+        .static{ position: static; border: 2px solid green; }
+        .relative{
+        position: relative;
+        border: 2px solid red;
+        left: 20px;
+        bottom: 0;
+        }
+        .absolute{ position: absolute; border: 2px solid blue; 
+       left: 20px; bottom: 40px; }
+        .fixed{ position: fixed; border: 2px solid black; bottom: 
+       0; right: 0; }
+        .sticky{
+        position: sticky;
+        border: 2px solid yellow;
+        top:0;
+        left:20px;
+        background: rgb(0, 115, 255);
+        color:white;
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <p class="sticky">
+        Ini merupakan contoh praktikum
+        </p>
+        <p class="static">
+        <b>FALCAO THE MAGICO FUTSAL</b> <br>
+        Falcao merupakan pemain futsal dengan koleksi empat penghargaan pemain terbaik dunia pada tahun  2004, 2006, 2011 dan 2012.
+        <p class="relative">
+        <b></b> <br>
+        Falcao dinobatkan sebagai pemain terbaik Piala Dunia Futsal pada tahun 2004 dan 2008. Selain itu, ia juga menjadi top skor gelaran akbar futsal tersebut di tahun 2004.
+        <p class="absolute">
+        <b></b> <br>
+        Bersama rentetan klub yang dibelanya sejak tahun 1989, pemain futsal berusia 45 tahun ini menorehkan jumlah gol yang fantastis, menyentuh angka 1005 gol dalam 701 pertandingan.
+
+        Sementara itu, bersama Timnas Futsal Brazil, ia berhasil mencetak 401 gol hanya dalam 258 pertandingan.
+        </p>
+        <p class="fixed">
+        ini merupakan contoh dari position fixed
+</body>
+</html>
